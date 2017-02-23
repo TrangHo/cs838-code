@@ -1,10 +1,10 @@
-1. capitalized except preposition (of/at/in)
-2. Whether it contain University
-3. Whether it contain College
-4. Whether it has University at the begin or end of the string
-5. Whether it has College at the begin or end of the string
+1(T). capitalized except preposition (of/at/in)
+2(T). Whether it contain University
+3(T). Whether it contain College
+4(T). Whether it has University at the begin or end of the string
+5(T). Whether it has College at the begin or end of the string
 
-6. Whether it has one of the prefixes: "dean of"
+6(S). Whether it has one of the prefixes: "dean of"
   - Whether it has the prefix: "professor(s) (of)... at"
   - Whether it has the prefix: "scholar(s) ... at"
   - Whether it has the prefix: "student(s) ... at"
@@ -25,18 +25,18 @@
       ⁃ a philanthropy expert at <pos>Indiana University</pos>
       ⁃ biologists at the <pos>University of Wisconsin-Madison</pos>
 
-7. Whether it has one these prefixes: "attend(ed)"
-8. Whether it has the prefix: "graduate(d) from"
+7(S). Whether it has one these prefixes: "attend(ed)"
+8(S). Whether it has the prefix: "graduate(d) from"
 
     - attend(ed) <University>, graduated from <pos>Oberlin College</pos>
 
-9. Whether it has the keywords prefix: "receive", "degree", "M.B.A.", "master"
+9(S). Whether it has the keywords prefix: "receive", "degree", "M.B.A.", "master"
     - Whether it has the prefix: "received a/an (M.B.A.)/(... degree) (in ...) from"
     ⁃ and received a law degree from the <pos>University of Pennsylvania</pos>
     ⁃ He graduated cum laude from <pos>Middlebury College</pos> and received an M.B.A. from <pos>Stanford</pos>
     ⁃ He graduated from <pos>Virginia Tech</pos>, and received an M.B.A. in finance from <pos>Washington University</pos> in St. Louis.
 
-10. Whether it has suffix: ", a/an ... college"
+10(S). Whether it has suffix: ", a/an ... college"
   - Whether it has suffix: ", a/an ... university"
   - Whether it has suffix: ", the ... university"
   - Whether it has suffix: ", the ... college"
@@ -46,7 +46,7 @@
     ⁃ <pos>Arizona State</pos>, the nation's largest public university
     - ⁃ the president of <pos>Bayan Claremont</pos>, a graduate college in Claremont, Calif.
 
-11. Whether it has suffix: "student(s)"
+11(T). Whether it has suffix: "student(s)"
   - Whether it has suffix: "... professor"
   - Whether it has suffix: "... campus"
       - <pos>Hillsdale</pos> students
@@ -54,7 +54,7 @@
       ⁃ <pos>Berkeley</pos> campus police
       ⁃  a <pos>Harvard</pos> political scientist
 
-12. Whether it has the form:
+12(T). Whether it has the form:
         - .. professor/student, prefix or post fix with ‘,/-/apostrophe(s)’ . Eg John Something, a Harvard professor,
 
   - Whether it has suffix: "'(s) ... graduate"
@@ -64,20 +64,19 @@
       - …’s …school/center, …’s …graduate, …(’s) classroom
       - Thousands of <pos>U.C. Berkeley</pos>’ low-income students
 
-13. Whether it has a prefix: "... University/University... and"
+13(T). Whether it has a prefix: "... University/University... and"
   - Whether it has a prefix: "... College/College... and"
-14. Whether it has suffix: "and ... University/University..."
+14(T). Whether it has suffix: "and ... University/University..."
   - Whether it has suffix: "and ... College/College..."
     - <University> and …
     - … and <university>
 
-15. Whether it has the form: "... colege(s) like <...> or <...>"
+15(T). Whether it has the form: "... colege(s) like <...> or <...>"
   - Whether it has the form: "... universities like <...> or <...>"
     - private colleges like <pos>Middlebury</pos> or <pos>Champlain</pos>
     ⁃ universities like <pos>Harvard</pos>
 
-
-
+16(T). Has the form: "University of <statename>"
 
 
 

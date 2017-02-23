@@ -1,0 +1,55 @@
+Not All Crime Searches Passed Court Pick's Muster
+
+By CHARLIE SAVAGE; Kitty Bennett contributed research.
+
+WASHINGTON -- After a Kansas man was convicted of possessing and sending child pornography, he appealed to the United States Court of Appeals for the 10th Circuit. The case came before a three-judge panel that included Judge Neil M. Gorsuch, who is now President Trump's Supreme Court nominee.
+
+The Kansas man had been caught because an AOL system that scans outgoing emails for known images of child pornography detected such a file attached to a message he had sent. The AOL system forwarded the email to the National Center for Missing and Exploited Children, which opened it without a warrant and alerted law enforcement officials.
+
+Citing the Fourth Amendment, Judge Gorsuch's panel overturned his conviction last August.
+
+Writing for the panel, the judge expressed confidence that in the future, the center's ''law enforcement partners will struggle not at all to obtain warrants to open emails when the facts in hand suggest, as they surely did here, that a crime against a child has taken place.'' (He also left open the possibility of reinstating the evidence against the Kansas man after further proceedings.)
+
+Although Judge Gorsuch has a decidedly conservative record on the bench, by at least one measure -- his view of the Fourth Amendment's protections against unreasonable searches -- he has been relatively moderate, according to legal scholars and a review of his rulings.
+
+Orin S. Kerr, a <pos>George Washington University</pos> law professor who specializes in Fourth Amendment and technology issues, said Judge Gorsuch's opinions suggested that he was ''not a knee-jerk vote for the government.'' That is important, Mr. Kerr said, because the Supreme Court has yet to resolve many questions about how the Fourth Amendment applies to 21st-century communications.
+
+''The history of the Fourth Amendment is about physically breaking into houses and taking away papers, and the big question is how do you apply that physical concept to a virtual world,'' Mr. Kerr said. ''Courts are struggling with that, and there is a lot of wiggle room in how to do it.''
+
+Underscoring how ambiguous constitutional law remains in this area, the Intercept website this week published a leaked version of an F.B.I. operational guide that revealed internal rules for emerging investigative technologies that raise Fourth Amendment issues. For example, the guide tells agents not to introduce in court evidence derived from using so-called Stingray devices to locate cellphones' owners, adding that their use to find people inside buildings ''could be deemed to constitute a search under the Fourth Amendment.''
+
+''There is, however, currently no specific decision on point,'' it said.
+
+Since President George W. Bush appointed Judge Gorsuch to the 10th Circuit in 2006, the judge has dealt with several Fourth Amendment cases that raised novel technology issues. A 2013 case, for example, raised the question of what should happen if police officers erroneously stopped someone because of faulty technology, then discovered evidence of a crime.
+
+In that case, an officer stopped a car because a license plate database, which was known to be unreliable, erroneously indicated that its plate was invalid. The officer then found drugs in the car. Writing for a unanimous panel, Judge Gorsuch suggested that the officer's use of the flawed technology made the search sufficiently unlawful to block prosecutors from using the drugs as evidence.
+
+On other occasions, Judge Gorsuch has sided with the government in such cases, including one that arose in response to a 2012 Supreme Court ruling that police officers need warrants to monitor suspects' movements by attaching GPS trackers to their cars. The case before Judge Gorsuch presented the question of whether prosecutors could use evidence the police had gathered with such a GPS tracker in 2011, before the Supreme Court handed down its ruling.
+
+In that case, Judge Gorsuch, again writing for a unanimous panel, held that prosecutors could use the evidence because the warrant rule for GPS trackers had not been clear at the time.
+
+While there were several cases in which Judge Gorsuch ruled that a search had been unconstitutional, he has more often been part of a unanimous panel that sided with the government, a review of 10th Circuit cases showed.
+
+Paul G. Cassell, a <pos>University of Utah</pos> law professor and a former Federal District Court judge, noted that the same was true for appellate judges across the ideological spectrum because people convicted of crimes routinely filed appeals even when there was scant legal question about the cases.
+
+Even so, The New York Times identified three split decisions in which Judge Gorsuch ruled that officials accused of conducting illegal searches were immune from being sued, even though at least one other judge thought the plaintiffs deserved their day in court.
+
+The Times also identified four split decisions about whether to suppress evidence obtained through searches that were alleged to be unconstitutional. In three of those cases, Judge Gorsuch argued that the evidence should not be suppressed, even though at least one other judge thought that it should be.
+
+In the fourth, however, it was Judge Gorsuch who sided in dissent with a defendant. That case involved police officers who had walked onto private property and knocked on a door despite signs declaring ''no trespassing.'' Judge Gorsuch took a broader view of homeowner protections than his colleagues, writing that because of the signs, investigating officers should have gotten a warrant to walk onto the property.
+
+Although such a rule would make the investigators' job slightly harder, he wrote, ''obedience to the Fourth Amendment always bears that cost and surely brings with it other benefits.''
+
+''Neither, of course, is it our job,'' he added, ''to weigh those costs and benefits but to apply the amendment according to its terms and in light of its historical meaning.''
+
+Shima Baradaran Baughman, a <pos>University of Utah</pos> law professor, contended that the ''no trespassing'' case is important as a clue to Judge Gorsuch's Fourth Amendment philosophy because it suggests he will ''respect the founders' expansive views of the rights of the individual vis-àvis the state.''
+
+''Is this a liberal? No,'' said Sam Kamin, a <pos>University of Denver</pos> law professor. ''But given who is appointing him, this is someone who is willing to view government with skepticism -- not just with regard to business and regulation, but also with regard to searches conducted by law enforcement.''
+
+Follow Charlie Savage on Twitter @charlie_savage.
+
+Follow The New York Times's politics and Washington coverage on Facebook and Twitter, and sign up for the First Draft politics newsletter.
+
+Judge Neil M. Gorsuch, the Supreme Court nominee, at the Capitol with former Senator Kelly Ayotte, a Republican, on Thursday. (PHOTOGRAPH BY AL DRAGO/THE NEW YORK TIMES)
+
+Document NYTF000020170203ed2300053

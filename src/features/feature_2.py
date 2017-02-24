@@ -16,7 +16,7 @@ def preprocessing(s):
     s = s.replace(",", " ").replace("-", " ").replace(".", " ")
 
 
-def feature2(s):
+def test(s):
     words = s.split()
     toreturn = False
     for word in words:

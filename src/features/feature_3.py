@@ -15,7 +15,7 @@ def relevant(word):
 def preprocessing(s):
     s = s.replace(",", " ").replace("-", " ").replace(".", " ")
 
-def feature3(s):
+def test(s):
     words = s.split()
     toreturn = False
     for word in words:

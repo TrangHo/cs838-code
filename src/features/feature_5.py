@@ -15,7 +15,7 @@ def relevant(word):
 def preprocessing(s):
     s = s.replace(",", " ").replace("-", " ").replace(".", " ")
 
-def feature5(s):
+def test(s):
     words = s.split()
     if words[0] == "College" or words[-1] == "College":
         return True

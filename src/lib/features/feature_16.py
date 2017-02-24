@@ -1,4 +1,4 @@
-from constants import states
+from lib.constants import states
 import re
 
 # 16(T). Has the form: "University of <statename>"

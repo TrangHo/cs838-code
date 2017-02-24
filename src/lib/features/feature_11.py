@@ -1,4 +1,4 @@
-from constants import university_nouns
+from lib.constants import university_nouns
 import re
 
 # 11(T). Whether it has suffix: "student(s)"

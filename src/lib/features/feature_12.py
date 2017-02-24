@@ -1,4 +1,4 @@
-from constants import university_nouns
+from lib.constants import university_nouns
 import re
 
 # 12(T). Whether it has suffix: "'(s) ... graduate"

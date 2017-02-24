@@ -7,5 +7,11 @@ NOUNS_GO_WITH_UNIVERSITIES = [
   "graduates",
   "classroom",
   "classrooms",
-  "campus"
+  "campus",
+  "freshmen",
+  "freshman",  
+  "sophormore",
+  "sophormores",
+  "dean",
+  "deans"
 ]

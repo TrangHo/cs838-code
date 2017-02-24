@@ -4,17 +4,18 @@
 4(T). Whether it has University at the begin or end of the string
 5(T). Whether it has College at the begin or end of the string
 
-6(S). Whether it has one of the prefixes: "dean of"
+6(S). Whether it has one of the prefixes: "dean of ... at"
   - Whether it has the prefix: "professor(s) (of)... at"
-  - Whether it has the prefix: "scholar(s) ... at"
-  - Whether it has the prefix: "student(s) ... at"
-  - Whether it has the prefix: "freshmen/freshman ... at"
-  - Whether it has the prefix: "sophormore(s) ... at"
-  - Whether it has the prefix: "junior(s) ... at"
-  - Whether it has the prefix: "senior(s) ... at"
-  - Whether it has the prefix: "researcher(s) ... at"
-  - Whether it has the prefix: "Ph.D. candidate(s) ... at"
-  - Whether it has the prefix: "staff(s) ... at"
+  or
+  - Whether it has the prefix: "scholar(s) at"
+  - Whether it has the prefix: "student(s) at"
+  - Whether it has the prefix: "freshmen/freshman at"
+  - Whether it has the prefix: "sophormore(s) at"
+  - Whether it has the prefix: "junior(s) at"
+  - Whether it has the prefix: "senior(s) at"
+  - Whether it has the prefix: "researcher(s) at"
+  - Whether it has the prefix: "Ph.D. candidate(s) at"
+  - Whether it has the prefix: "staff(s) at"
 
     -  dean of the, professor … at, scholars/student(s)/freshmen… at (?)
       ⁃ dean of the graduate school of education at the <pos>University of California</pos> at Los Angeles

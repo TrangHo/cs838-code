@@ -36,15 +36,16 @@
     ⁃ He graduated cum laude from <pos>Middlebury College</pos> and received an M.B.A. from <pos>Stanford</pos>
     ⁃ He graduated from <pos>Virginia Tech</pos>, and received an M.B.A. in finance from <pos>Washington University</pos> in St. Louis.
 
-10(S). Whether it has suffix: ", a/an ... college"
-  - Whether it has suffix: ", a/an ... university"
-  - Whether it has suffix: ", the ... university"
-  - Whether it has suffix: ", the ... college"
+10(S). Whether it has suffix: ",/- a/an ... college"
+  - Whether it has suffix: ",/- a/an ... university"
+  - Whether it has suffix: ",/- the ... university"
+  - Whether it has suffix: ",/- the ... college"
 
     - <pos>Hillsdale</pos>, a private college
     - <pos>Hillsdale</pos>, a conservative college in Michigan
     ⁃ <pos>Arizona State</pos>, the nation's largest public university
     - ⁃ the president of <pos>Bayan Claremont</pos>, a graduate college in Claremont, Calif.
+    - .. professor/student, prefix or post fix with ‘,/-/apostrophe(s)’ . Eg John Something, a Harvard professor,
 
 11(T). Whether it has suffix: "student(s)"
   - Whether it has suffix: "... professor"
@@ -54,10 +55,7 @@
       ⁃ <pos>Berkeley</pos> campus police
       ⁃  a <pos>Harvard</pos> political scientist
 
-12(T). Whether it has the form:
-        - .. professor/student, prefix or post fix with ‘,/-/apostrophe(s)’ . Eg John Something, a Harvard professor,
-
-  - Whether it has suffix: "'(s) ... graduate"
+12(T). Whether it has suffix: "'(s) ... graduate"
   - Whether it has suffix: "'(s) ... school/center"
   - Whether it has suffix: "'(s) ... classroom"
   - Whether it has suffix: "'(s) ... students"
@@ -66,6 +64,7 @@
 
 13(T). Whether it has a prefix: "... University/University... and"
   - Whether it has a prefix: "... College/College... and"
+
 14(T). Whether it has suffix: "and ... University/University..."
   - Whether it has suffix: "and ... College/College..."
     - <University> and …
@@ -77,7 +76,6 @@
     ⁃ universities like <pos>Harvard</pos>
 
 16(T). Has the form: "University of <statename>"
-
 
 
 

@@ -1,0 +1,25 @@
+It Turns Out Spending More Probably Does Improve Education
+
+If you spend more on education, will students do better?
+
+Educators, politicians and unions have battled in court over that crucial question for decades, most recently in a sweeping decision this fall in Connecticut, where a judge ordered the state to revamp nearly every facet of its education policies, from graduation requirements to special education, along with its school funding.
+
+For many years, research on the relationship between spending and student learning has been surprisingly inconclusive. Many other factors, including student poverty, parental education and the way schools are organized, contribute to educational results.
+
+Teasing out the specific effect of money spent is methodologically difficult. Opponents of increased school funding have seized on that ambiguity to argue that, for schools, money doesn’t matter — and, therefore, more money isn’t needed.
+
+But new, first-of-its-kind research suggests that conclusion is mistaken. Money really does matter in education, which could provide fresh momentum for more lawsuits and judgments like the Connecticut decision.
+
+The study, published by the National Bureau of Economic Research in July, was conducted by the economists Julien Lafortune and Jesse Rothstein of the <pos>University of California at Berkeley</pos> and Diane Whitmore Schanzenbach of <pos>Northwestern</pos>. They examined student test scores in 26 states that have changed the way they fund schools since 1990, usually in response to a lawsuit like Connecticut’s, and compared them with those in 23 states that haven’t. While no two states did exactly the same thing, they all had the effect of increasing funding for the poorest districts.
+
+The post-1990 time frame is important: That’s when courts changed how they think about states’ obligations to public schoolchildren. Previously, nearly all school funding lawsuits focused on the question of “equity” — did disadvantaged students receive funding equal to that of their well-off peers?
+
+The problem with that perspective was the answer could be “yes,” even if funding was too low across the board. Starting with a 1990 court case in Kentucky, courts started asking about “adequacy” instead. Were school districts getting enough money, which might require giving extra money to districts that enroll many low-income, expensive-to-serve students?
+
+“There’s been this wave of school finance reform across the country over the last few decades,” Mr. Rothstein said. “I think it’s fair to say it’s the largest reform aimed at equity since school desegregation, and we really didn’t know what the impacts were. There’s now growing evidence, from my work and from others, that those reforms did lead to improved achievement and improved outcomes for children in low-income school districts.”
+
+Mr. Lafortune, Mr. Rothstein and Ms. Schanzenbach also solved a difficult methodological problem that had plagued school finance researchers for decades. More money isn’t an end unto itself — the goal is to produce better results. But before the recent widespread adoption of the Common Core State Standards, every state had its own standards and related tests. That made it hard to compare academic results from one state to another.
+
+That study was conducted by C. Kirabo Jackson of <pos>Northwestern</pos>, Rucker C. Johnson from the <pos>University of California at Berkeley</pos> and Claudia Persico, then a graduate student at <pos>Northwestern</pos> and now an assistant professor at the <pos>University of Wisconsin</pos>. They examined outcomes for about 15,000 people, born between 1955 and 1985, and found that for poor children, a 10 percent increase in per-pupil spending each year of elementary and secondary school was associated with wages that were nearly 10 percent higher, a drop in the incidence of adult poverty and roughly six additional months of schooling.
+
+“The notion that spending doesn’t matter is just not true,” Mr. Jackson said. “We found that exposure to higher levels of public K-12 spending when you’re in school has a pretty large beneficial effect on the adult outcomes of kids, and that those effects are much more pronounced for children from low-income families.”

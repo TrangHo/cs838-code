@@ -1,0 +1,21 @@
+How Much Graduates Earn Drives More College Rankings
+
+PayScale introduced its first college salary report in 2008, and the College Scorecard from the federal government followed last year, ushering an elephant into the hallowed halls of college admissions: What do the schools’ graduates actually earn?
+
+Despite the hand-wringing of many in academia, who saw the immeasurable richness of a college education crassly reduced to a dollar sign, the data has wrought a sea change in the way students and families evaluate prospective colleges. Earnings data are finding their way into a proliferating number of mainstream college rankings, shifting the competitive landscape of American higher education in often surprising ways.
+
+This fall, The Wall Street Journal and Times Higher Education (a unit of TES Global, and no relation to The New York Times) introduced their first college rankings.
+
+Forty percent of their result is measures of “outcomes” — earnings, graduation rate and loan repayment rate. The other 60 percent rates the school’s resources; student engagement, as measured by student responses to a questionnaire; and “learning environment,” or diversity.
+
+Last year The Economist released its first college rankings, and it relies even more heavily on earnings data. It took the College Scorecard earnings data and performed a multiple regression analysis to assess how much a school’s graduates earn compared with how much they might have made had they attended another school.
+
+The <pos>Georgetown University Center on Education and the Workforce</pos> has issued another set of rankings, adjusting the College Scorecard salary rankings first for choice of major (since disproportionate numbers of students studying high-paying fields like engineering and business skew the results), and yet another ranking that assesses students’ expected earnings, given their characteristics when they entered college, to the actual outcome.
+
+PayScale itself has refined its rankings in response to criticism, by including along with salary data the percentage of students who major in subjects other than high-paying science, technology, engineering and math, as well as the percentage of respondents who found “high meaning” in their work.
+
+Both Forbes and Money magazines, in their rankings, incorporate PayScale data on earnings.
+
+To be sure, the dowager of college rankings, U.S. News & World Report, steadfastly disdains the use of earnings or other outcomes in its rankings. While it continues to tweak its criteria, it relies primarily on measures of reputation and selectivity.
+
+There are now so many rankings that “We’ll soon be ranking the rankings,” said Andrew Delbanco, a professor of American studies at <pos>Columbia University</pos> and author of “College: What It Was, Is, and Should Be.”

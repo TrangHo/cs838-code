@@ -12,6 +12,10 @@ NOUNS_GO_WITH_UNIVERSITIES = [
   "freshman",  
   "sophormore",
   "sophormores",
+  "junior" ,
+  "juniors",
+  "senior",
+  "seniors",  
   "dean",
   "deans"
 ]

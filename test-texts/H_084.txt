@@ -1,0 +1,45 @@
+Fearful of Hacking, Dutch Will Count Ballots by Hand
+
+By SEWELL CHAN
+
+Correction Appended
+
+Concerned about the role hackers and false news might have played in the United States election, the Dutch government announced on Wednesday that all ballots in next month’ elections would be counted by hand.
+
+The decision to forgo electronic counting is a stark response to warnings that outside actors, including Russia, might try to tamper with pivotal elections this year in the Netherlands, France and Germany —hree major democracies in which establishment parties are facing pressure from right-wing populism of the kind that fueled Britain’ vote to leave the European Union and Donald J. Trump’ triumph in the United States election.
+
+“he cabinet cannot exclude the possibility that state actors might gain advantage from influencing political decision-making and public opinion in the Netherlands and might use means to try and achieve such influence,”nterior Minister Ronald Plasterk said in a statement. “e’e talking about actors that both have the intention and ability to do this.”
+
+Parliament recently discussed the finding by intelligence agencies that the Russian government tried covertly to help Mr. Trump, and Mr. Trump’ allegations —ade without evidence —hat millions of undocumented immigrants had cast ballots, costing him the popular vote.
+
+Ronald Van Raak, an opposition member for the Socialist Party, demanded guarantees from Mr. Plasterk that the Dutch elections, set for March 15, would not be hacked —nd said that if the government could not provide such a guarantee, it should resort to paper ballots.
+
+In a report on Monday, the broadcaster RTL concluded that the Dutch election would be “asy to hack,”iting interviews with experts and an in-depth investigation of the vote-tallying software the nation has used since 2009.
+
+On Wednesday, Mr. Plasterk said the government was looking into the electoral system’ vulnerability to fraud, but was taking pre-emptive action to remove “ny shadow of a doubt”bout electoral integrity. So it will abandon the use of computer technology for vote tallying. Voting in the Netherlands, a nation of 17 million, will occur the old-fashioned way: Voters will use red pencils to mark paper ballots, which will be hand-counted in each voting precinct and then tallied across the nation’ 20 voting districts. The results are then submitted to the central voting office and the nation’ electoral council.
+
+Herbert Bos, a computer scientist at the Vrije Universiteit in Amsterdam and an expert on election integrity, said it was essential that the country maintain a voter-verifiable paper audit trail, to allow voters to ascertain that their vote was cast correctly and to allow the checking of the stored electronic results.
+
+“n the Netherlands the whole system was frighteningly insecure,”r. Bos said in an email. Although the country still uses paper ballots, “he rest of the chain, from the polling stations all the way to the announcement of the final election results,”as been “ompletely computerized”ince 2008, he said.
+
+“ou did not even need to be super sophisticated to manipulate the counts,”r. Bos said. “ould a foreign country such as Russia, China or indeed any advanced state do this? Oh yes. Easily. Will the decision to pull the plug on the computerized vote counting improve integrity? Yes. You need manual counting and a paper trail that is checked.”
+
+He added: “lection results are the heart of our democracy. You cannot risk any of this. Even if the vulnerabilities were small, you do not want to take any chances. And in this case they were not small. And there were many.”s for elections since 2008, Mr. Bos said he could not be certain that no tampering had occurred.
+
+Kees Verhoeven, a member of Parliament for D66, a centrist party that supports marijuana legalization, welcomed the government’ decision but said that Mr. Plasterk should have acted sooner. “he elections will be held in six weeks, and only now the minister sees that the software is not secure,”r. Verhoeven said, adding that election integrity is at “he core of our democracy.”
+
+Follow Sewell Chan on Twitter @sewellchan.Milan Schreuer contributed reporting.
+
+Correction: February 2, 2017, Thursday
+
+This article has been revised to reflect the following correction: An earlier version of this article misstated the institution where Herbert Bos, an expert on election integrity, is a professor. It is Vrije Universiteit in Amsterdam, not the <pos>University of Amsterdam</pos>.
+
+* Trump Repeats Lie About Popular Vote in Meeting With Lawmakers
+
+* Russian Hackers Acted to Aid Trump in Election, U.S. Says
+
+* Trump’ Claim of Millions of Illegal Votes? There’ Simply No Evidence
+
+Prime Minister Mark Rutte of the Netherlands speaking at a college. | Robin Utrecht/Agence France-Presse —etty Images
+
+Document NYTFEED020170202ed22000gq

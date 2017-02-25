@@ -3,6 +3,7 @@ import re
 import arff
 import csv
 from lib.featureGenerator import FeatureGenerator
+from lib.constants import patterns
 
 class PositiveExamplesGenerator:
   def __init__(self, dir_path):
@@ -35,12 +36,12 @@ class PositiveExamplesGenerator:
     for root, dirs, files in os.walk(self.dir_path):
       for file in files:
         if file.endswith('.txt'):
+          print("Scanning file", file)
           filepath = self.dir_path + '/' + file
           text = open(filepath).read()
-          pattern = r'<pos>(\w|-|,|\.|\s)+</pos>'
           text_len = len(text)
 
-          for markup in re.finditer(pattern, text):
+          for markup in re.finditer(patterns.POS_MARKUP, text):
             # truncate text to before the markup 500 chars and after markup 500 chars
             # to help speedup finding prefix and suffix as well as increasing its
             # accuracy.

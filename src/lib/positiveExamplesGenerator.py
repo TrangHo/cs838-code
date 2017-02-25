@@ -2,7 +2,7 @@ import os
 import re
 import csv
 from lib.featureGenerator import FeatureGenerator
-from lib.constants import patterns
+from lib.constants import patterns, constants
 
 class PositiveExamplesGenerator:
   def __init__(self, dir_path):

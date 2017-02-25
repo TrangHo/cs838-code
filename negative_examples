@@ -1,0 +1,2 @@
+#/usr/bin/sh
+python3 src/negativeExamples.py $1 $2 $3

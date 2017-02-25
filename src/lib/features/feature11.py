@@ -1,4 +1,4 @@
-from lib.constants import university_nouns
+from lib.constants import universityNouns
 import re
 
 # 11(T). Whether it has suffix: "student(s)"
@@ -9,7 +9,7 @@ import re
 #       ⁃ <pos>Berkeley</pos> campus police
 #       ⁃  a <pos>Harvard</pos> political scientist
 def test(str, suffix):
-  nouns = '|'.join(university_nouns.NOUNS_GO_WITH_UNIVERSITIES)
+  nouns = '|'.join(universityNouns.NOUNS_GO_WITH_UNIVERSITIES)
   pattern = re.compile("^(\\b\w\w+\\b)*(?!,)\s*(\\b\w\w+\\b)*\\b(" + nouns + ")")
   match = re.search(pattern, suffix)
   return match is not None

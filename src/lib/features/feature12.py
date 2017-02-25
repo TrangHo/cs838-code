@@ -1,4 +1,4 @@
-from lib.constants import university_nouns
+from lib.constants import universityNouns
 import re
 
 # 12(T). Whether it has suffix: "'(s) ... graduate"
@@ -8,7 +8,7 @@ import re
 #       - …’s …school/center, …’s …graduate, …(’s) classroom
 #       - Thousands of <pos>U.C. Berkeley</pos>’ low-income students
 def test(str, suffix):
-  nouns = '|'.join(university_nouns.NOUNS_GO_WITH_UNIVERSITIES)
+  nouns = '|'.join(universityNouns.NOUNS_GO_WITH_UNIVERSITIES)
   pattern = re.compile("^'(?:s)?\\s*(\\b\w\w+\\b)*(?!,)\s*(\\b\w\w+\\b)*\\b(" + nouns + ")")
   match = re.search(pattern, suffix)
   return match is not None

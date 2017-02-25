@@ -1,6 +1,5 @@
 import os
 import re
-import arff
 import csv
 from lib.featureGenerator import FeatureGenerator
 from lib.constants import patterns
@@ -8,7 +7,6 @@ from lib.constants import patterns
 class PositiveExamplesGenerator:
   def __init__(self, dir_path):
     self.dir_path = dir_path
-    self.count = 0
     self.generator = FeatureGenerator()
     self.data = []
     self.metadata = []

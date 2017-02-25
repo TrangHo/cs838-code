@@ -1,3 +1,5 @@
+NO_NEG_PER_DOC = 10
+
 STATES = [
   "Alabama",
   "Alaska",

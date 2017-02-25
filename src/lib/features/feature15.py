@@ -7,4 +7,4 @@ import re
 def test(str, prefix):
   prefix = re.sub(r'\b(of|at|in|the|-|,)\b', "", prefix)
   pattern = r'\b((college(?:s)?)|university|universities)\b\s+like(?:\s+\b[A-Z]\w+\b\s+(\b[A-Z]\w+\b\s+)+or)?$'
-  return re.search(pattern, prefix)
+  return re.search(pattern, prefix) is not None

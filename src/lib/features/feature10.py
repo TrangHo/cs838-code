@@ -13,4 +13,4 @@ import re
 def test(str, suffix):
     #pattern = re.compile("^(\\b[a-z]+\\b)*(?!,)\\s*(a|an|the)\\s(\\b[a-z]+\\s\\b)*(university|college)")
     pattern = re.compile("^(?!,)\\s*(a|an|the)\\s(\\b[a-z]+('s)?\\s\\b)*(university|college)")
-    return re.search(pattern, suffix)
+    return re.search(pattern, suffix) is not None

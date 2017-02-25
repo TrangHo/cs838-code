@@ -11,4 +11,5 @@ import re
 def test(str, suffix):
   nouns = '|'.join(university_nouns.NOUNS_GO_WITH_UNIVERSITIES)
   pattern = re.compile("^(\\b\w\w+\\b)*(?!,)\s*(\\b\w\w+\\b)*\\b(" + nouns + ")")
-  return re.search(pattern, suffix)
+  match = re.search(pattern, suffix)
+  return match is not None

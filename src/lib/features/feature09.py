@@ -7,7 +7,6 @@ from lib.constants import prefix_keywords
 #     ⁃ He graduated from <pos>Virginia Tech</pos>, and received an M.B.A. in finance from <pos>Washington University</pos> in St. Louis.
 def test(str, prefix):
     nouns = '|'.join(prefix_keywords.PREFIX_KEYWORDS)
-    print (nouns)
     # pattern = re.compile('(' + nouns + ')\\s' + '\\bat')
     pattern = re.compile('('+ nouns + ')')
-    return re.search(pattern, prefix)
+    return re.search(pattern, prefix) is not None

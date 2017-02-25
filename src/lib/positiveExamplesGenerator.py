@@ -20,12 +20,12 @@ class PositiveExamplesGenerator:
     )
 
   def export_to_csvs(self):
-    with open('postiveExamples.csv', 'w', newline='') as csvfile:
+    with open('positiveExamples.csv', 'w', newline='') as csvfile:
       writer = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_ALL)
       for vector in self.data:
         writer.writerow(vector)
 
-    with open('postiveExamplesMetadata.csv', 'w', newline='') as csvfile:
+    with open('positiveExamplesMetadata.csv', 'w', newline='') as csvfile:
       writer = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_ALL)
       for vector in self.metadata:
         writer.writerow(vector)

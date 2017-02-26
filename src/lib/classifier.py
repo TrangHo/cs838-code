@@ -66,7 +66,7 @@ class Classifier:
     else: return 0
 
   def __fit_with_cross_validation(self, fold=constants.CV_FOLD):
-    fold = KFold(constants.CV_FOLD, shuffle=True)
+    # fold = KFold(constants.CV_FOLD, shuffle=True)
     precisions = cross_val_score(self.cls, self.vectors, self.labels, cv=fold, scoring='precision')
     recalls = cross_val_score(self.cls, self.vectors, self.labels, cv=fold, scoring='recall')
     predictions = cross_val_predict(self.cls, self.vectors, self.labels, cv=fold)

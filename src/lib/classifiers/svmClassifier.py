@@ -10,7 +10,7 @@ class SVMClassifier:
     self.clf = svm.SVC()
 
   def fit(self):
-    return self.__fit_without_cross_validation()
+    return self.__fit_with_cross_validation()
 
   def fit_test(self):
     return self.__fit_without_cross_validation()

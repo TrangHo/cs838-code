@@ -22,7 +22,7 @@ if __name__ == "__main__":
         input_file = open(file, 'r')
         text = input_file.read()
         # find out the positive markups so that the negative candidates selected did not overlap with them
-        p_pos =r'<pos>(.*)</pos>' 
+        p_pos =r'<pos>(.*)</pos>'
         pos_words = re.findall(p_pos,text)
         pos_loc = locate_position(p_pos,text)
         pattern = list()
@@ -39,8 +39,8 @@ if __name__ == "__main__":
         #)               #end capture
         p1 = r'([A-Z][a-z]+(?=\s[A-Z])(?:\s[A-Z][a-z]+)+)'
         pattern.append(p1)
-        
-        
+
+
         p2 = r'\b(at|from|in)\s[A-Z][a-z]+(?:\s[A-Z][a-z]+)?'
         pattern.append(p2)
         loc_it = [locate(p,text) for p in pattern] # this is a list of iterators
@@ -50,7 +50,7 @@ if __name__ == "__main__":
         rand_loc_obj = list()
         for l in loc_obj:
             if l:
-                rand_loc_obj.append(random.choice(l))    
+                rand_loc_obj.append(random.choice(l))
             else:
                 rand_loc_obj.append(list())
         # print(rand_loc_obj)
@@ -58,11 +58,11 @@ if __name__ == "__main__":
         rand_loc = list()
         if rand_loc_obj[0]:
             rand_loc.append([rand_loc_obj[0].start(),rand_loc_obj[0].end()]) # p1
-        if rand_loc_obj[1]:    
+        if rand_loc_obj[1]:
             rand_loc.append([rand_loc_obj[1].start()+len(rand_loc_obj[1].group(1))+1,rand_loc_obj[1].end()]) #p2
         # this list contains all the final negative examples
         select_loc = list()
-        for i in rand_loc:      
+        for i in rand_loc:
             flag = 0
             for j in pos_loc:
                 if check_overlap(i[0],i[1],j[0],j[1]):
@@ -73,9 +73,4 @@ if __name__ == "__main__":
         for i in select_loc:
             #print(i[0],i[1])
             print(text[i[0]:i[1]])
-        
-            
-                    
-                    
-                
-                    
+

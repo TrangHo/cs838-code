@@ -1,1 +1,5 @@
-pip install liac-arff
+Requirements for scikit-learn (on Trang computer)
+  pip install --upgrade setuptools
+  pip install numpy
+  pip install scipy
+pip install scikit-learn

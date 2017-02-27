@@ -15,6 +15,7 @@ from lib.features import feature13;
 from lib.features import feature14;
 from lib.features import feature15;
 from lib.features import feature16;
+from lib.features import feature17;
 
 class FeatureGenerator:
   def generate_features(self, text, begin, end):
@@ -77,5 +78,6 @@ class FeatureGenerator:
       feature13.test(self.str, self.prefix),
       feature14.test(self.str, self.suffix),
       feature15.test(self.str, self.prefix),
-      feature16.test(self.str)
+      feature16.test(self.str),
+      feature17.test(self.str)
     ]

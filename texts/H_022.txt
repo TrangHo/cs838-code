@@ -6,7 +6,7 @@ Popcorn munching. Soup slurping. Nose sniffling. Or, simply, breathing.
 
 Ever wonder why some ordinary sounds drive you crazy? It's called misophonia, a mysterious affliction in which seemingly harmless sounds unleash anger, anxiety and, in some cases, panic attacks in some people.
 
-If you're one of them, neuroscientists at Newcastle University in Britain say they may have found an explanation for what ails you.
+If you're one of them, neuroscientists at <pos>Newcastle University</pos> in Britain say they may have found an explanation for what ails you.
 
 In a report on the latest study published Thursday in the journal Current Biology, the neuroscientists say that brain scans of misophonia sufferers show that particular sounds, like eating and drinking, cause the part of their brain that processes emotions, the anterior insular cortex, to go into overdrive.
 

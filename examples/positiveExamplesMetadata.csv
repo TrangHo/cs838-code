@@ -202,6 +202,7 @@ Wiretaps, interrogation records and transcripts of chats recovered on suspects�
 Document INHT000020170206ed240000g"
 "H_020.txt","University of Chicago Law School","Eric Posner is a professor at the","."
 "H_021.txt","Washington University School of Law","Puzder began working at the Shenker law firm while a full-time student at","in St."
+"H_022.txt","Newcastle University","If you're one of them, neuroscientists at","in Britain say they may have found an explanation for what ails you."
 "H_022.txt","Newcastle University","Sukhbinder Kumar, the lead researcher from the Institute of Neuroscience at",".
 
 '"
@@ -312,6 +313,11 @@ Document INHT000020170203ed2300013"
 Mr. Heinsdorf began ringing when he was 11 or 12 and stopped when he was 14 but always “ame back to the tower.”e now rings at St. Martin’ once a week during the summer and is trying to build his skills. But he is under no illusions about the amount of work that will take.
 
 At 34, Mr. Heinsdorf was one of the youngest ringers at the Quar"
+"H_040.txt","Oxford University","",", paper, $16.95.
+
+As charming and unpredictable as a stroll through Paris, this little book consists of 19 short tales —ive of them in fact prose poems (by Julien Green, Jean Follain and others) —hich take place on specific streets in neighborhoods all over town and sometimes zoom out for a view of the marvelous whole (as in Roland Dorgelè’ “ooftop Over the Champs-Éysés”.
+
+Each text is paired with a black-and-white photograph of a Parisian street scene or another visual image suggested by the na"
 "H_041.txt","University of California, Berkeley","The cancellation of an appearance by the right-wing editor Milo Yiannopoulos of Breitbart News at the",", after violent protests drew scrutiny from veteran activists of the 1960s."
 "H_042.txt","University of Milan","On balance, though, the benefits can outweigh the risks, says Giovanni Cavagna, an emeritus professor of physiology at the","in Italy, who led the 2011 study.
 
@@ -949,6 +955,7 @@ This coyness may be no crime, but a genuine wish not to appear bigheaded for the
 "T_22.txt","Columbia University","Graduate students at","voted to unionize this week, the group announced on Friday."
 "T_22.txt","Columbia","The vote to unionize was 1,602 to 623, according to the United Automobile Workers, which will now represent some 3,500","graduate students."
 "T_22.txt","Columbia","The labor board ruling, which said graduate students could be considered employees if they were paid for work overseen by the university, arose from a petition filed by","students."
+"T_22.txt","Brown University","It reversed a 2004 labor board decision involving graduate student assistants at","."
 "T_22.txt","Columbia","The vote this week makes","one of two private universities with graduate-student unions. <pos>New York University</pos> recognized its own voluntarily in 2013. States can choose whether public university graduate students can unionize; about 30,000 teaching and research assistants at such universities are U.A.W. members.
 
 While graduate students at <pos>Columbia</pos> were elated on Friday, Gary N. Chaison, a professor of industrial relations at <pos>Clark University</pos> in Worcester, Mass., said the university might d"
@@ -962,8 +969,8 @@ A spokeswoman for <pos>Columbia</pos> did not respond to a question about whethe
 
 In a statement, John Coatsworth, the university’s provost, reacted to the vote by q"
 "T_22.txt","Columbia","A spokeswoman for","did not respond to a question about whether it might delay negotiations."
-"T_22.txt","Columbia","In a statement, John Coatsworth, the university’s provost, reacted to the vote by quoting a letter he sent to the","community in August: “‘Regardless of the outcome of the election, we will continue to ensure that <pos>Columbia</pos> remains a place where every student can achieve the highest levels of intellectual accomplishment and personal fulfillment.’ This sentiment remains as true today as it was then."
-"T_22.txt","Columbia","In a statement, John Coatsworth, the university’s provost, reacted to the vote by quoting a letter he sent to the <pos>Columbia</pos> community in August: “‘Regardless of the outcome of the election, we will continue to ensure that","remains a place where every student can achieve the highest levels of intellectual accomplishment and personal fulfillment.’ This sentiment remains as true today as it was then."
+"T_22.txt","Columbia","In a statement, John Coatsworth, the university’s provost, reacted to the vote by quoting a letter he sent to the","community in August: “‘Regardless of the outcome of the election, we will continue to ensure that <pos>Columbia</pos> remains a place where every student can achieve the highest levels of intellectual accomplishment and personal fulfillment.’ This sentiment remains as true today as it was then.”"
+"T_22.txt","Columbia","In a statement, John Coatsworth, the university’s provost, reacted to the vote by quoting a letter he sent to the <pos>Columbia</pos> community in August: “‘Regardless of the outcome of the election, we will continue to ensure that","remains a place where every student can achieve the highest levels of intellectual accomplishment and personal fulfillment.’ This sentiment remains as true today as it was then.”"
 "T_23.txt","University of Michigan","ANN ARBOR, Mich. — Amanda Delekta, a sophomore at the","and political director of t"
 "T_23.txt","Columbia University","To Todd Gitlin, a professor of journalism and sociology at",", and a veteran of student protests in the 1960s, it all seems familiar — and a possible harbinger of conflict to come.
 
@@ -1119,18 +1126,21 @@ On Thursday, after an investigation, the university said similar exchanges had c
 "T_35.txt","Wesleyan","A question I have heard from many people on campus, in one form or another, is how, after being taught liberal values for two years, could I still support Mr. Trump? It might be rubbing salt in the wound for liberals, but it was what I was taught at","that cemented my vote."
 "T_35.txt","Wesleyan","It was the students of","who taught me to not judge a community by its fringe members, one of the messages that I received after the reaction to an article I wrote criticizing the Black Lives Matter movement."
 "T_36.txt","Yeshiva University","","Names Ari Berman President"
-"T_36.txt","Yeshiva University","","may not have the same high profile in New York City as Columbia and New York University, but it is the fountainhead of the Modern Orthodox Jewish movement, and enrolls about 7,000 students at colleges and highly regarded professional schools that include the <pos>Benjamin N. Cardozo School of Law</pos>, the <pos>Albert Einstein College of Medicine</pos>"
-"T_36.txt","Benjamin N. Cardozo School of Law","<pos>Yeshiva University</pos> may not have the same high profile in New York City as Columbia and New York University, but it is the fountainhead of the Modern Orthodox Jewish movement, and enrolls about 7,000 students at colleges and highly regarded professional schools that include the",", the <pos>Albert Einstein College of Medicine</pos> and the <pos>Ferkauf Graduate School of Psychology</pos>.
+"T_36.txt","Yeshiva University","","may not have the same high profile in New York City as <pos>Columbia</pos> and <pos>New York University</pos>, but it is the fountainhead of the Modern Orthodox Jewish movement, and enrolls about 7,000 students at colleges and highly regarded professional schools that include the <pos>Benjamin N. Cardozo School of Law</pos>, the <pos>Albert Einstein College of Medicine</pos>"
+"T_36.txt","Columbia","<pos>Yeshiva University</pos> may not have the same high profile in New York City as","and <pos>New York University</pos>, but it is the fountainhead of the Modern Orthodox Jewish movement, and enrolls about 7,000 students at colleges and highly regarded professional schools that include the <pos>Benjami"
+"T_36.txt","New York University","<pos>Yeshiva University</pos> may not have the same high profile in New York City as <pos>Columbia</pos> and",", but it is the fountainhead of the Modern Orthodox Jewish movement, and enrolls about 7,000 students at colleges and highly regarded professional schools that"
+"T_36.txt","Benjamin N. Cardozo School of Law","<pos>Yeshiva University</pos> may not have the same high profile in New York City as <pos>Columbia</pos> and <pos>New York University</pos>, but it is the fountainhead of the Modern Orthodox Jewish movement, and enrolls about 7,000 students at colleges and highly regarded professional schools that include the",", the <pos>Albert Einstein College of Medicine</pos> and the <pos>Ferkauf Graduate School of Psychology</pos>.
 
 On Wednesday, after a yearlong search, the university announced that its new president will be Rabbi Ari Berman, 46, a Queens-bred alumnus of the university’s high school, undergraduate college, Jewish studies graduate school and rabbinical college.
 
 He takes over an institution that has been struggling to regain its financial footing, while also being buffeted by shifts in Orthodoxy,"
-"T_36.txt","Albert Einstein College of Medicine","<pos>Yeshiva University</pos> may not have the same high profile in New York City as Columbia and New York University, but it is the fountainhead of the Modern Orthodox Jewish movement, and enrolls about 7,000 students at colleges and highly regarded professional schools that include the <pos>Benjamin N. Cardozo School of Law</pos>, the","and the <pos>Ferkauf Graduate School of Psychology</pos>.
+"T_36.txt","Albert Einstein College of Medicine","<pos>Yeshiva University</pos> may not have the same high profile in New York City as <pos>Columbia</pos> and <pos>New York University</pos>, but it is the fountainhead of the Modern Orthodox Jewish movement, and enrolls about 7,000 students at colleges and highly regarded professional schools that include the <pos>Benjamin N. Cardozo School of Law</pos>, the","and the <pos>Ferkauf Graduate School of Psychology</pos>.
 
 On Wednesday, after a yearlong search, the university announced that its new president will be Rabbi Ari Berman, 46, a Queens-bred alumnus of the university’s high school, undergraduate college, Jewish studies graduate school and rabbinical college.
 
 He takes over an institution that has been struggling to regain its financial footing, while also being buffeted by shifts in Orthodoxy, with some liberal voices demanding a greater role fo"
-"T_36.txt","Ferkauf Graduate School of Psychology","<pos>Yeshiva University</pos> may not have the same high profile in New York City as Columbia and New York University, but it is the fountainhead of the Modern Orthodox Jewish movement, and enrolls about 7,000 students at colleges and highly regarded professional schools that include the <pos>Benjamin N. Cardozo School of Law</pos>, the <pos>Albert Einstein College of Medicine</pos> and the","."
+"T_36.txt","Ferkauf Graduate School of Psychology","<pos>Yeshiva University</pos> may not have the same high profile in New York City as <pos>Columbia</pos> and <pos>New York University</pos>, but it is the fountainhead of the Modern Orthodox Jewish movement, and enrolls about 7,000 students at colleges and highly regarded professional schools that include the <pos>Benjamin N. Cardozo School of Law</pos>, the <pos>Albert Einstein College of Medicine</pos> and the","."
+"T_36.txt","Yeshiva University","Rabbi Berman, in a telephone interview, said he was seeking “a transformation,” not just a turnaround from the difficulties of recent years. Though he spoke elliptically and offered few specifics, he said that to increase enrollment and expand its donor base, the university, whose motto is “Torah Umadda” (Torah and secular knowledge), will need to “reformulate the message” and “explain the powerful relevance of","today.”"
 "T_37.txt","Harvard","Cornel West Will Return to Teach at",""
 "T_37.txt","Harvard University","CAMBRIDGE, Mass. — Cornel West, the fiery African-American scholar who broke with","14 years ago an"
 "T_37.txt","Harvard Divinity School","He is to hold a joint appointment at the","and the department of African and African-American studies as a professor of the practice of public philosophy, a title reserved for those who have made outstanding contributions in their professional fields.

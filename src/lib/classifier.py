@@ -20,20 +20,51 @@ from lib.classifiers.svmClassifier import SVMClassifier
 from lib.classifiers.decisionTreeClassifier import DecisionTreeClassifier
 
 class Classifier:
-  def __init__(self, classifier_type, positive_file, negative_file):
+  def __init__(self, classifier_type, positive_file, negative_file, pos_metadata, neg_metadata):
+    self.classifier_type = classifier_type
     self.vectors = []
     self.labels = []
-    self.positive_vectors = []
-    self.negative_vectors = []
-    self.__parse_data(positive_file, constants.POSTIVIE_LABEL)
-    self.__parse_data(negative_file, constants.NEGATIVE_LABEL)
+    self.metadatas = []
+    self.__parse_data(positive_file, constants.POSTIVIE_LABEL, self.vectors, self.labels)
+    self.__import_metadata(pos_metadata)
+    self.__parse_data(negative_file, constants.NEGATIVE_LABEL, self.vectors, self.labels)
+    self.__import_metadata(neg_metadata)
     self.__set_classifier(classifier_type)
 
-  def fit(self):
-    return self.__fit_with_cross_validation()
+    self.vectors = np.array(self.vectors)
+    self.labels = np.array(self.labels)
 
-  def fit_test(self):
-    return self.__fit_without_cross_validation()
+  def fit(self):
+    res = self.__fit_with_cross_validation()
+    with open('predictions_' + self.classifier_type + '.csv', 'w', newline='') as csvfile:
+      writer = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_ALL)
+      writer.writerow(['Label', 'Predicted Label', 'File', 'term', 'prefix', 'suffix',
+                        '01', '02', '03', '04', '05',
+                        '06', '07', '08', '09', '10',
+                        '11', '12', '13', '14', '15',
+                        '16', '17'])
+      for index in range(len(res['indexes'])):
+        i = res['indexes'][index]
+        row = [self.labels[i], res['predictions'][index]] + list(self.metadatas[i]) + list(self.vectors[i])
+        writer.writerow(row)
+
+    return res
+
+  def predict(self, positive_file, negative_file):
+    vectors = []
+    labels = []
+    self.__parse_data(positive_file, constants.POSTIVIE_LABEL, vectors, labels)
+    self.__parse_data(negative_file, constants.NEGATIVE_LABEL, vectors, labels)
+
+    predictions = self.cls.predict(vectors)
+    precision = precision_score(labels, predictions)
+    recall = recall_score(labels, predictions)
+
+    return dict(
+      precision = precision,
+      recall = recall,
+      predictions = predictions
+    )
 
   def __set_classifier(self, classifier_type):
     if classifier_type == constants.CLASSIFIERS['SVM']:
@@ -49,62 +80,48 @@ class Classifier:
     elif classifier_type == constants.CLASSIFIERS['NEURAL_NETWORK']:
       self.cls = MLPClassifier()
 
-  def __parse_data(self, filename, label):
+  def __parse_data(self, filename, label, vectors, labels):
     with open(filename, newline='') as csvfile:
       reader = csv.reader(csvfile, delimiter=',', quotechar='"')
       for row in reader:
         parsed_row = list(map(self.__map_TF_to_int, row))
-        self.vectors.append(parsed_row)
-        self.labels.append(label)
-        if label == constants.POSTIVIE_LABEL:
-          self.positive_vectors.append(parsed_row)
-        else:
-          self.negative_vectors.append(parsed_row)
+        vectors.append(parsed_row)
+        labels.append(label)
+
+  def __import_metadata(self, filename):
+    with open(filename, newline='') as csvfile:
+      reader = csv.reader(csvfile, delimiter=',', quotechar='"')
+      for row in reader:
+        self.metadatas.append(row)
 
   def __map_TF_to_int(self, value):
     if value == 'True': return 1
     else: return 0
 
-  def __fit_with_cross_validation(self, fold=constants.CV_FOLD):
+  def __fit_with_cross_validation(self, no_fold=constants.CV_FOLD):
     # fold = KFold(constants.CV_FOLD, shuffle=True)
-    precisions = cross_val_score(self.cls, self.vectors, self.labels, cv=fold, scoring='precision')
-    recalls = cross_val_score(self.cls, self.vectors, self.labels, cv=fold, scoring='recall')
-    predictions = cross_val_predict(self.cls, self.vectors, self.labels, cv=fold)
+    k_fold = KFold(n_splits=no_fold, shuffle=True)
+    precisions = []
+    recalls = []
+    indexes = []
+    predictions = []
+
+    for train_indices, test_indices in k_fold.split(self.vectors):
+      X_train, X_test = self.vectors[train_indices], self.vectors[test_indices]
+      y_train, y_test = self.labels[train_indices], self.labels[test_indices]
+      self.cls.fit(X_train, y_train)
+
+      cv_prediction = self.cls.predict(X_test)
+      predictions += list(cv_prediction)
+      precisions.append(precision_score(y_test, cv_prediction))
+      recalls.append(recall_score(y_test, cv_prediction))
+      indexes += list(test_indices)
 
     return dict(
       precisions = precisions,
       recalls = recalls,
       precision = mean(precisions),
       recall = mean(recalls),
-      predictions = predictions
-    )
-
-  def __fit_without_cross_validation(self, test_size = constants.DEV_TEST_SIZE_RATIO):
-    sss = StratifiedShuffleSplit(n_splits=1, test_size=test_size, random_state=0)
-    sss.get_n_splits(self.vectors, self.labels)
-    X_train = list()
-    y_test = list()
-    X_test = list()
-    y_test = list()
-
-    for train_idx, test_idx in sss.split(self.vectors, self.labels):
-      train_index = train_idx
-      test_index = test_idx
-
-    vectors = np.array(self.vectors)
-    labels = np.array(self.labels)
-    X_train, X_test = vectors[train_index], vectors[test_index]
-    y_train, y_test = labels[train_index], labels[test_index]
-
-
-    # X_train, X_test, y_train, y_test = train_test_split(self.vectors, self.labels, test_size)
-    self.cls.fit(X_train, y_train)
-    predictions = self.cls.predict(X_test)
-    precision = precision_score(y_test, predictions)
-    recall = recall_score(y_test, predictions)
-
-    return dict(
-      precision = precision,
-      recall = recall,
-      predictions = predictions
+      predictions = predictions,
+      indexes = indexes
     )

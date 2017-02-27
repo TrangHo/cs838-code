@@ -1,2 +1,2 @@
 #/usr/bin/sh
-python3 src/classifier.py $1 $2
+python3 src/classifier.py $1 $2 $3 $4 $5 $6

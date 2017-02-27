@@ -1,0 +1,17 @@
+## NOTE: Before run, make sure the current env has the required packages in python_packages.txt
+
+- To generate positive examples from text:
+  ./positive_examples generate [dir_path_to_text_files]
+    eg: ./positive_examples generate /Users/carepjan/code/cs838/test-texts
+
+- To generate negative candidates from texts
+  ./negative_examples candidates [dir_path_to_text_files]
+    eg: ./negative_examples candidates /Users/carepjan/code/cs838/test-texts
+
+- To generate negative examples from candidates file:
+  ./negative_examples generate [negative_candidates_CSV] [dir_path_to_text_files]
+    eg: ./negative_examples generate /Users/carepjan/code/cs838/test-examples/negativeCandidates.csv /Users/carepjan/code/cs838/test-texts
+
+- To run train classifiers and test on test files:
+  ./classifier [pos_train_file] [neg_train_file] [pos_metadata_file] [neg_metadata_file] [pos_test_file] [neg_test_file]
+    eg: ./classifier /Users/carepjan/code/cs838/examples/positiveExamples.csv /Users/carepjan/code/cs838/examples/negativeExamples.csv /Users/carepjan/code/cs838/examples/positiveExamplesMetadata.csv /Users/carepjan/code/cs838/examples/negativeExamplesMetadata.csv /Users/carepjan/code/cs838/test-examples/positiveExamples.csv /Users/carepjan/code/cs838/test-examples/negativeExamples.csv

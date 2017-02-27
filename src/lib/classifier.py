@@ -2,7 +2,7 @@
 # decision tree
 # random forest
 # support vector machine
-# linear regression
+# linear regression => Not working with the data => change to Neuron Network instead
 # logistic regression
 import csv
 from statistics import mean
@@ -16,8 +16,6 @@ from sklearn.model_selection import cross_val_score, cross_val_predict, train_te
 from sklearn.metrics import precision_score, recall_score
 
 from lib.constants import constants
-from lib.classifiers.svmClassifier import SVMClassifier
-from lib.classifiers.decisionTreeClassifier import DecisionTreeClassifier
 
 class Classifier:
   def __init__(self, classifier_type, positive_file, negative_file, pos_metadata, neg_metadata):

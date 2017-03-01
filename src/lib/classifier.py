@@ -23,16 +23,20 @@ class Classifier:
     self.vectors = []
     self.labels = []
     self.metadatas = []
+    self.pos_count = 0
+    self.neg_count = 0
     self.__parse_data(positive_file, constants.POSTIVIE_LABEL, self.vectors, self.labels)
     self.__import_metadata(pos_metadata)
+    self.pos_count = len(self.vectors)
     self.__parse_data(negative_file, constants.NEGATIVE_LABEL, self.vectors, self.labels)
     self.__import_metadata(neg_metadata)
     self.__set_classifier(classifier_type)
+    self.neg_count = len(self.vectors) - self.pos_count
 
     self.vectors = np.array(self.vectors)
     self.labels = np.array(self.labels)
 
-  def fit(self):
+  def fit_cv(self):
     res = self.__fit_with_cross_validation()
     with open('predictions_' + self.classifier_type + '.csv', 'w', newline='') as csvfile:
       writer = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_ALL)
@@ -48,13 +52,34 @@ class Classifier:
 
     return res
 
+  def fit(self):
+    pos_index = int(self.pos_count * (1 - constants.DEV_TEST_SIZE_RATIO))
+    neg_index = int(self.neg_count * (1 - constants.DEV_TEST_SIZE_RATIO))
+    train_indices = list(range(pos_index)) + list(range(self.pos_count + neg_index, len(self.vectors)))
+    test_indices = list(set(range(len(self.vectors))) - set(train_indices))
+    X_train = self.vectors[train_indices]
+    y_train = self.labels[train_indices]
+    X_test = self.vectors[test_indices]
+    y_test = self.labels[test_indices]
+
+    self.cls.fit(X_train, y_train)
+    predictions = self.__transform_label(self.cls.predict(X_test))
+    precision = precision_score(y_test, predictions)
+    recall = recall_score(y_test, predictions)
+
+    return dict(
+      precision = precision,
+      recall = recall,
+      predictions = predictions
+    )
+
   def predict(self, positive_file, negative_file):
     vectors = []
     labels = []
     self.__parse_data(positive_file, constants.POSTIVIE_LABEL, vectors, labels)
     self.__parse_data(negative_file, constants.NEGATIVE_LABEL, vectors, labels)
 
-    predictions = self.cls.predict(vectors)
+    predictions = self.__transform_label(self.cls.predict(vectors))
     precision = precision_score(labels, predictions)
     recall = recall_score(labels, predictions)
 
@@ -71,8 +96,8 @@ class Classifier:
       self.cls = tree.DecisionTreeClassifier()
     elif classifier_type == constants.CLASSIFIERS['RANDOM_FOREST']:
       self.cls = RandomForestClassifier()
-    # elif classifier_type == constants.CLASSIFIERS['LINEAR_REGRESSION']:
-    #   self.cls = LinearRegression()
+    elif classifier_type == constants.CLASSIFIERS['LINEAR_REGRESSION']:
+      self.cls = LinearRegression()
     elif classifier_type == constants.CLASSIFIERS['LOGISTIC_REGRESSION']:
       self.cls = LogisticRegression()
     elif classifier_type == constants.CLASSIFIERS['NEURAL_NETWORK']:
@@ -109,7 +134,7 @@ class Classifier:
       y_train, y_test = self.labels[train_indices], self.labels[test_indices]
       self.cls.fit(X_train, y_train)
 
-      cv_prediction = self.cls.predict(X_test)
+      cv_prediction = self.__transform_label(self.cls.predict(X_test))
       predictions += list(cv_prediction)
       precisions.append(precision_score(y_test, cv_prediction))
       recalls.append(recall_score(y_test, cv_prediction))
@@ -123,3 +148,9 @@ class Classifier:
       predictions = predictions,
       indexes = indexes
     )
+
+  def __transform_label(self, predictions, threshold=constants.THRESHOLD):
+    if self.classifier_type == constants.CLASSIFIERS['LINEAR_REGRESSION']:
+      for i in range(len(predictions)):
+        predictions[i] = 1 if predictions[i] >= threshold else 0
+    return predictions

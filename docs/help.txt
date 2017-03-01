@@ -12,6 +12,10 @@
   ./negative_examples generate [negative_candidates_CSV] [dir_path_to_text_files]
     eg: ./negative_examples generate /Users/carepjan/code/cs838/test-examples/negativeCandidates.csv /Users/carepjan/code/cs838/test-texts
 
-- To run train classifiers and test on test files:
-  ./classifier [pos_train_file] [neg_train_file] [pos_metadata_file] [neg_metadata_file] [pos_test_file] [neg_test_file]
-    eg: ./classifier /Users/carepjan/code/cs838/examples/positiveExamples.csv /Users/carepjan/code/cs838/examples/negativeExamples.csv /Users/carepjan/code/cs838/examples/positiveExamplesMetadata.csv /Users/carepjan/code/cs838/examples/negativeExamplesMetadata.csv /Users/carepjan/code/cs838/test-examples/positiveExamples.csv /Users/carepjan/code/cs838/test-examples/negativeExamples.csv
+- To try different classifiers and see results:
+  ./classifier test_classifiers [pos_train_file] [neg_train_file] [pos_metadata_file] [neg_metadata_file]
+    eg: ./classifier test_classifiers /Users/carepjan/code/cs838/examples/positiveExamples.csv /Users/carepjan/code/cs838/examples/negativeExamples.csv /Users/carepjan/code/cs838/examples/positiveExamplesMetadata.csv /Users/carepjan/code/cs838/examples/negativeExamplesMetadata.csv /Users/carepjan/code/cs838/test-examples/positiveExamples.csv /Users/carepjan/code/cs838/test-examples/negativeExamples.csv
+
+- To train and fit data on a specific classifier:
+  ./classifier classify [pos_train_file] [neg_train_file] [pos_metadata_file] [neg_metadata_file] [pos_test_file] [neg_test_file] [classifier_type]
+    eg: ./classifier classify /Users/carepjan/code/cs838/examples/positiveExamples.csv /Users/carepjan/code/cs838/examples/negativeExamples.csv /Users/carepjan/code/cs838/examples/positiveExamplesMetadata.csv /Users/carepjan/code/cs838/examples/negativeExamplesMetadata.csv /Users/carepjan/code/cs838/test-examples/positiveExamples.csv /Users/carepjan/code/cs838/test-examples/negativeExamples.csv DT
